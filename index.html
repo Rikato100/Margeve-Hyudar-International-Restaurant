@@ -2,185 +2,168 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Margeve HyuDar</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            background: url('https://interiordesign.net/wp-content/uploads/2022/10/Interior-Design-iCrave-53-idx221001_icrave10-2-headercrop.png');
-            background-color: (rgba 0, 0, 0, 0.9)
-            background-size: fixed;
-            background-repeat: no-repeat;
-            background-position: fixed;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #fff;
-        }
 
-.videobck {
-    position: fixed;
-    top: 0;
-    left: 0;
-    min-height: 100%;
-    min-width: 100%;
-    z-index: -1;
-    background: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50));
-}
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        #content-container {
-            text-align: center;
-            border-radius: 15px;
-            padding: 0px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 2.2);
-            max-width: 600px;
-            margin-bottom: 20px;
-        }
+<title>Margeve HyuDar</title>
 
-        h1 {
-            font-size: 3em;
-            margin-bottom: 15px;
-            color: #3498db;
-        }
 
-        p {
-            font-size: 1.2em;
-            margin-bottom: 25px;
-        }
+<style>
 
-        a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: bold;
-            transition: color 0.3s ease;
-        }
+body {
+margin: 0;
+padding: 0;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: (rgba 0, 0, 0, 0.9)
+background-size: fixed;
+background-repeat: no-repeat;
+background-position: fixed;
+background-color: (rgba 0, 0, 0, 0.9)
+background-size: fixed;
+background-repeat: repeat;
+background-position: fixed;
+font-family: 'Segoe UI', Tahoma, 
+Geneva, Verdana, sans-serif;color: #fff;}
 
-        a:hover {
-            color: #217dbb;
-        }
+.videobck {position: fixed;
+top: 0; left: 0; min-height: 100%;
+min-width: 100%; z-index: -1;
+background: linear-gradient
+(rgba(0,0,0,0.50),rgba(0,0,0,0.50));}
 
-        nav {
-             width: fixed;
-    margin: fixed;
-    padding: 20px 0;
-    display: flex;
-    align-items: center;
-    background: linear-gradient(rgba(1,1,1,0.50),rgba(5,5,5,0.50));
-        }
+#content-container {
+text-align: center;
+border-radius: 5px;
+padding: 1px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 1000);
+max-width: 700px;
+margin-bottom: 20px;
+font-family: Geneva;}
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            align-items: center;
-        }
+h1 {font-size: 3em;
+margin-bottom: 15px;
+color: #3498db;}
 
-        nav li {
-            margin: 0 15px;
-            position: relative;
-        }
+p {font-size: 1.2em;
+margin-bottom: 25px;}
 
-        nav a {
-            text-decoration: underline;
-            color: #fff;
-            font-weight: bold;
-            font-size: 1.2em;
-            display: block;
-            padding: 8px;
-            border-radius: 5px;
-        }
+a {color: #3498db;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;}
 
-        nav a:hover {
-            background-color: #3498db;
-        }
+a:hover {color: #217dbb;}
 
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            top: 100%;
-            background-color: black;
-            min-width: 100px;
-            box-shadow:  rgba(0, 0, 0, 0.2);
-            z-index: 1;
-        }
+nav {width: 100%; padding: 2px 0;
+display: flex; align-items: center;
+background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(5, 5, 5, 0.5));}
 
-        .dropdown:hover .dropdown-content {
-            display: block;
-        }
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+align-items: center;}
 
-        #footer {
-            text-align: center;
-            font-size: 0.9em;
-            color: #888;
-        }
+nav li {
+margin: 0 15px;
+position: relative;}
+
+nav a {
+text-decoration: underline;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 8px;
+border-radius: 5px;}
+
+nav a:hover {
+background-color: #3498db;}
+
+.dropdown-content {
+display: none;
+position: absolute;
+top: 100%;
+background-color: black;
+min-width: 100px;
+box-shadow: rgba(0, 0, 0, 0.2);
+z-index: 1;}
+
+.dropdown:hover 
+.dropdown-content {
+display: block;}
+
+#footer {
+text-align: center;
+font-size: 0.9em;
+color: #999;}
+
 img {
 display: block;
 margin-left: auto;
 margin-right: auto;}
-    </style>
+
+</style>
 </head>
+
 
 <body>
 
 <video class="videobck" autoplay muted loop>
-            <source src="https://imgur.com/KQUPwWv.mp4" type="video/mp4">
-               </video>
+<source src="https://imgur.com/KQUPwWv.mp4" type="video/mp4">
+</video>
 
-    <nav>
-        <ul>
-            <li><img width="350" height="200" src = "Hyures.png" alt = Logo></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li><a href="index.html" class="highlight" style="background-color: #3498db; border-radius: 5px;">Home</a></li>
-            <li class="dropdown">
-                <a href="#" class="highlight">Featured Foods</a>
-                <div class="dropdown-content">
-                    <a href="#">Italian</a>
-                    <a href="#">Chinese</a>
-                    <a href="#">Korean</a>
-                    <a href="#">Indian</a>
-                    <a href="#">Filipino</a>
-                    <a href="#">Thai</a>
-                    <a href="#">Japanese</a>
-                    <a href="#">French</a>
-                    <a href="#">American</a>
-                </div>
-            </li>
-            <li><a href="#">Best Selling</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contacts</a></li>
-        </ul>
-    </nav>
+<nav>
+
+<ul>
+<li><img width="300" height="150" src = "Hyures.png" alt = Logo></li>
+ 
+<li><a href="index.html" class="highlight" style="background-color: #3498db; border-radius: 5px;">Home</a></li>
+<li class="dropdown">
+<a href="#" class="highlight">Featured Foods</a>
+<div class="dropdown-content">
+<a href="#">Italian</a>
+<a href="#">Chinese</a>
+<a href="#">Korean</a>
+<a href="#">Indian</a>
+<a href="#">Filipino</a>
+<a href="#">Thai</a>
+<a href="#">Japanese</a>
+<a href="#">French</a>
+<a href="#">American</a>
+
+</div>
+</li>
+
+<li><a href="#">Best Selling</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Contacts</a></li>
+
+</ul>
+</nav>
+
 <br>
 <br>
 
 <div id="content-container">
-        <h1>Welcome to Margeve Hyudar</h1>
-        <p>Discover a special place crafted just for you. Explore and enjoy the uniqueness!</p>
-        <p>Check out our <a href="#">features</a> or <a href="#">contact us</a> for more information.</p>
-    </div>
+<h1 align = center style="text-shadow: 2px 2px red;">Welcome to Margeve Hyudar's <br> International Cuisine Restaurant</h1>
 
-    <div id="footer">
-        &copy; 2023 Margeve HyuDar. All rights reserved.
-    </div>
+<font color = black>
+<font size = 4>
+<p style="text-shadow: 1px 1px white;">Indulge in a culinary journey featuring the finest international cuisines. At Margeve Hyudar, we serve high-quality dishes crafted with passion and authenticity. Join us in celebrating the rich tapestry of global flavors!</p>
+<p style="text-shadow: 1px 1px white;">"Discover the globe on your plate.<br>Margeve Hyudar, where flavors sync and resonate!"</p>
+
+</div>
+
+<div id="footer">
+&copy; 2023 Margeve HyuDar. All rights reserved.
+</div>
 
 </body>
 
-</html>
-                        
+</html> 
