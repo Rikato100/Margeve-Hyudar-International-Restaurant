@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback & Inquiry Form</title>
+
+
+<style>
+
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+justify-content: center;
+align-items: center;
+background: linear-gradient(rgba(5, 5, 5, 0.5), rgba(1, 1, 1, 0.7)), url('BG.png');
+background-color: (rgba 0, 0, 0, 0.9)
+background-size: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-attachment: fixed;
+height: 100vh;}
+
+nav {width: 100%; padding: 2px 0;
+display: flex; align-items: center;
+background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(5, 5, 5, 0.5));}
+
+nav ul {
+list-style: none;
+padding: 0;
+display: flex;
+align-items: center;}
+
+nav li {
+margin: 0 15px;
+position: relative;}
+
+nav a {
+text-decoration: underline;
+color: #fff;
+font-weight: bold;
+font-size: 1.2em;
+display: block;
+padding: 8px;
+border-radius: 5px;}
+
+nav a:hover {background-color: #3498db;}
+
+.dropdown-content {display: none;
+position: absolute; top: 100%;
+background-color: black;
+min-width: 100px;
+box-shadow: rgba(0, 0, 0, 0.2);
+z-index: 1000;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#feedback-form {background-color: #fff;
+background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+padding: 20px; border-radius: 8px;
+box-shadow: 0 0 20px rgba(52, 152, 219, 1000);
+max-width: 800px; text-align: center;
+width: 100%; margin: auto; }
+
+h1 {color: #3498db;
+text-shadow: 3px 3px #301934;}
+
+p {font-size: 1.2em;
+margin-bottom: 25px;
+text-shadow: 1px 1px #5A5A5A;}
+
+a {color: #3498db;
+text-decoration: none;
+font-weight: bold;
+transition: color 0.3s ease;}
+
+input, textarea {
+width: 100%;
+margin: 10px 0;
+padding: 8px;
+box-sizing: border-box;
+border: 1px solid #ccc;
+border-radius: 4px;
+resize: vertical;}
+
+button {background-color: #3498db;
+color: #fff; padding: 10px; border: none;
+border-radius: 4px; cursor: pointer;}
+
+button:hover {background-color: #217dbb;}
+
+#confirmation {margin-top: 15px; color: #27ae60;}
+
+#services {margin-top: 20px; text-align: left;}
+#services p {margin: 10px 0;}
+
+.social-media {display: flex; justify-content: center; margin-top: 20px;}
+.social-media a {margin: 0 10px;}
+.social-media img {width: 40px; height: auto;}
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+<ul>
+<li><img width="300" height="150" src="Hyures.png" alt=Logo></li>
+
+<li><a href="index.html" class="highlight";>Home</a></li>
+
+<li class="dropdown">
+<a href="#" class="highlight">Best Selling Food Items</a>
+<div class="dropdown-content">
+<a href="American-Cuisine-Menu.html">American Cuisine</a>
+<a href="Chinese-Cuisine-Menu.html">Chinese Cuisine</a>
+<a href="Filipino-Cuisine-Menu.html">Filipino Cuisine</a>
+<a href="French-Cuisine-Menu.html">French Cuisine</a>
+<a href="Indian-Cuisine-Menu.html">Indian Cuisine</a>
+<a href="Italian-Cuisine-Menu.html">Italian Cuisine</a>
+<a href="Japanese-Cuisine-Menu.html">Japanese Cuisine</a>
+<a href="Korean-Cuisine-Menu.html">Korean Cuisine</a>
+<a href="Thai-Cuisine-Menu.html">Thai Cuisine</a>
+
+</div>
+</li>
+
+<li class="dropdown">
+<a href="#" class="highlight">Featured Menu Items</a>
+<div class="dropdown-content">
+<a href="Breakfast-Menu.html">Breakfasts</a>
+<a href="Appetizers-Menu.html">Appetizers</a>
+<a href="S&N-Menu.html">Soups and Noodles</a>
+<a href="H&C-Menu.html">Hot and Cold Entrées</a>
+<a href="Main-Menu.html">Main Course</a>
+<a href="Side-Menu.html">Side Dishes</a>
+<a href="Breads-Menu.html">Breads</a>
+<a href="Salads-Menu.html">Salads</a>
+<a href="Desserts-Menu.html">Desserts</a>
+<a href="D&B-Menu.html">Drinks and Beverages</a>
+
+</div>
+</li>
+
+<li><a href="About-us.html">About Us</a></li>
+<li style="background-color: #3498db; border-radius: 5px;">
+<a href="Contacts.html">Contacts</a></li>
+
+</ul>
+</nav>
+
+<br>
+<br>
+<br>
+
+<div id="feedback-form">
+<h1>Feedback & Inquiry Form</h1>
+
+<font color = #F2EFDE>
+<font size = 4>
+
+<p style="text-shadow: 1px 1px Red;">Margeve Hyudar's International Cuisine Restaurant values your feedback and messages. 
+Your insights are invaluable to us as they play a crucial role in our continuous efforts to enhance and refine our services. 
+Whether you have suggestions, praise, or inquiries, your input helps us understand your needs better and ensures 
+that we provide the best possible experience for you.</p>
+
+<p style="text-shadow: 1px 1px Red;">We appreciate the time you take to share your thoughts with us. 
+Your feedback allows us to continuously improve and deliver exceptional dining experiences. 
+Feel free to reach out to us with any questions, comments, or special requests. 
+We are here to assist you and make your experience at Margeve Hyudar truly memorable.</p>
+
+<br>
+
+<form id="myForm">
+<label for="name">Your Name:</label>
+<input type="text" id="name" name="name" required>
+
+<label for="email">Your Email:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="feedback">Enter your message:</label>
+<textarea id="feedback" name="feedback" rows="4" required></textarea>
+<button type="button" onclick="submitFeedback()">Submit Message</button>
+</form>
+<p id="confirmation"></p>
+
+<div id="services">
+<p align = center style="text-shadow: 1px 1px Blue;">For reservations, please call us at: <strong> 0960 289 6489 </strong> </p> <br> 
+<p style="text-shadow: 1px 1px Red;">Visit us at: <strong> #0427, Block 9, Lot 2, Hi-Tech Avenue, Baranggay Cyber Heights, 
+Nova City, Metro Manila, Philippines, Southeast Asia, Earth, Kuiper Belt, Solar
+System, Milky Way</strong> </p>
+
+<p style="text-shadow: 1px 1px Red;">Have an inquiry? Feel free to reach out to us via <br>
+
+<p style="text-shadow: 1px 1px Red;">Email: <strong>info@MargeveHyudar.com</strong> <br> 
+Facebook: <strong>/HyudarInterEateryPH </strong><br>
+Instagram: <strong>@MarHyudar_ICR </strong><br> 
+Twitter: <strong>@HyRes_International </strong></p>
+
+<br>
+
+<p align = center style="text-shadow: 1px 1px Blue;"> <strong>"Discover the globe on your plate. <br>
+Margeve Hyudar, where flavors sync and resonate!" </strong> </p>
+</div>
+
+<div class="social-media">
+<a href="https://www.facebook.com" target="_blank"><img src="fb.png" alt="Facebook"></a>
+<a href="https://www.instagram.com" target="_blank"><img src="insta.jfif" alt="Instagram"></a>
+<a href="https://twitter.com" target="_blank"><img src="X.png" alt="Twitter"></a>
+
+</div>
+</div>
+
+
+<script>
+function submitFeedback() {
+var name = document.getElementById("name").value;
+var email = document.getElementById("email").value;
+var feedback = document.getElementById("feedback").value;
+var confirmation = document.getElementById("confirmation");
+
+if (name.trim() === "" || email.trim() === "" || feedback.trim() === "") {
+confirmation.innerHTML = "Please fill in all fields.";} 
+
+else {var mailtoLink = "mailto:Rikatohansolaes69@gmail.com" +
+"?subject=Feedback from " + encodeURIComponent(name) +
+"&body=" + encodeURIComponent(feedback + "\n\nSender's Email: " + email);
+
+window.location.href = mailtoLink;
+
+confirmation.innerHTML = "Thank you for your message!<br>Message received: " + feedback;}}
+
+</script>
+
+<br>
+<br>
+<br>
+
+</body>
+
+</html>
